@@ -22,8 +22,8 @@ const Logo = () => {
     return(
         <Link href="/">
             <a>
-                <LogoBox>
-                    <Image  src={banana} width={20}  height={800} alt="logo"/>
+                {/* <LogoBox>
+                    <Image  src={banana} width={20}  height={800} alt="logo"/> */}
                 <Text
                 color={useColorModeValue('gray.800', 'whitAlpha.900')}
                 fontFamily='M PLUS Rounded 1c'
@@ -32,7 +32,7 @@ const Logo = () => {
                 >
                 Khang Hoang    
                 </Text> 
-                </LogoBox>
+                {/* </LogoBox> */}
             </a>
         </Link>
     )
