@@ -37,7 +37,7 @@ const Page = () => {
                     <Heading as="h2" variant="page-tittle">
                         Khang Hoang
                     </Heading>
-                    <p>Student of Hedspi (Developer / Guitarist / Freelancer)</p>
+                    <p>(Developer / Guitarist / Freelancer)</p>
                 </Box>
             <Box flexShrink={0} 
             mt={{base: 4, md: 0}} 
